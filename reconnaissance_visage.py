@@ -1,10 +1,3 @@
-import virtualenv as vt
-activate_this = '/home/pi/.virtualenvs/cv/bin/activate_this.py'
-exec(open(activate_this).read(), {'__file__': activate_this})
-
-
-
-
 import cv2
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt2.xml")
 profil_cascade = cv2.CascadeClassifier("haarcascade_profileface.xml")
